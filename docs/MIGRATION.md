@@ -13,6 +13,6 @@ git log --all --graph --oneline
 
 验证脚本检查每个子目录的 Git 树 SHA、全部原始提交对象与源分支引用、原 HEAD 祖先关系、package.json 和锁文件、ZIP 校验及文档相对链接。文件 SHA 验证包含二进制数据、许可证和文档。
 
-六个源仓库均无 Git 子模块；迁移时未发现 Git LFS 指针。原 Issues、Stars、fork 关系、仓库设置不会通过 subtree 合入新仓库；它们应留在原仓库，待验收后再经用户确认转移原仓库至归档组织。
+六个源仓库均无 Git 子模块；迁移时未发现 Git LFS 指针。原 Issues、Stars、fork 关系、仓库设置不会通过 subtree 合入新仓库；它们仍保留在六个原仓库中；新目标验收并经用户确认后，原仓库已按原名转入 liujunyukarry-archive 并设为只读归档。
 
 MATLAB 与旧 Vue 工程的运行正确性需要独立验证；文件迁移通过不代表算法或应用运行通过。没有批量升级依赖，没有修改后端接口或部署配置。

@@ -43,3 +43,5 @@ Vue 3.2 资源先复制并解压 [vue_3.2.zip](vue3.2-resources/vue3-2_backendma
 三个源仓库未发现独立 LICENSE 文件；此次没有替原作者授予新许可。原始说明和作者信息保留，各子项目的使用与再分发须遵守原有权利。
 
 见 [迁移说明与验证方法](docs/MIGRATION.md) 和 [验证结果](docs/VALIDATION.md)。
+
+原始仓库现保留于 [只读归档组织](https://github.com/orgs/liujunyukarry-archive/repositories)。完整结果见 [最终验收报告](docs/FINAL_REPORT.md)。
