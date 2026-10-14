@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+**/node_modules/
+**/dist/
+**/coverage/
+*.log
+.env.local
+.env.*.local
+# Keep resource/ and existing sample archives; they are learning materials.
