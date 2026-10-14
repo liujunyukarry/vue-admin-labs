@@ -1,0 +1,1611 @@
+{
+  "snapshot_utc": "2026-10-14T05:36:03.050847+00:00",
+  "method": "unsquashed two-parent subtree merge via git merge -s ours --no-commit and git read-tree --prefix; original branch refs preserved under source/<repository>/<branch>",
+  "sources": [
+    {
+      "repository": "liujunyukarry/vue2_3",
+      "prefix": "mixed-vue/vue2_3",
+      "default_branch": "master",
+      "head_sha": "2f932222f2b22397a0bafeddba064c5c21514832",
+      "tree_sha": "cd28d91fe2e907e8685c000b9545401a66cc771f",
+      "file_count": 162,
+      "commit_count": 3,
+      "commit_shas": [
+        "2f932222f2b22397a0bafeddba064c5c21514832",
+        "262984c4579b145ec33d8438d3cd4e62db9bbeae",
+        "b6c439d5d1595c8f14cbc14db1351675b1cf9520"
+      ],
+      "refs": [
+        "refs/heads/master 2f932222f2b22397a0bafeddba064c5c21514832"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "778243f5c24e0cfca63a32d232b259c8e664de22",
+          "path": ".gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3c0b860458c4dbd50185b6c98fe0cf6c42af561b",
+          "path": "README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "64b02f8a13829cb3c0c4b4d1ecee11e4a9ad9b8b",
+          "path": "Vue_project/1项目效果展示/01Vue通用后台管理.xmind"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "16873c7c8bc3be83879cd13beab33a18b64c8c47",
+          "path": "Vue_project/1项目效果展示/01登录页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "793cecc094a287bffffcbf8cd887aaa8d2f6c3e3",
+          "path": "Vue_project/1项目效果展示/02学生列表页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "42c2b317bbdc294693bef6609d496866fca0e43a",
+          "path": "Vue_project/1项目效果展示/03信息列表.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aec0a410e4450076d81e363d14879f90e4a4376b",
+          "path": "Vue_project/1项目效果展示/04信息管理页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "32bf6e24b6d50764be80239d39323930c36850ad",
+          "path": "Vue_project/1项目效果展示/05作业列表页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "76215a8285f1d61b27340b356f462a06d1509bd6",
+          "path": "Vue_project/1项目效果展示/06作业管理页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f2af6c8f0f6c97ae5ca5bb1e6d36a431157415e7",
+          "path": "Vue_project/1项目效果展示/07数据概览页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "edd5c89250d29b096d0548c9aef6ed9cb10157d4",
+          "path": "Vue_project/1项目效果展示/08地图概览页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "42eb8a54c3b3c8dd149319db67dd06383e29554c",
+          "path": "Vue_project/1项目效果展示/09旅游地图页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5c88cc6a88d69acd6012f8dc47dca7b76ff25871",
+          "path": "Vue_project/1项目效果展示/10分数地图页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "75639c546a1afabe279cba05e7fcde02c9d569c7",
+          "path": "Vue_project/1项目效果展示/11权限管理页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "467daf412865c4383a66cda58410c670c3ce7581",
+          "path": "Vue_project/1项目效果展示/12404页.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "14c2b438e1efe0da24ebce9e0eeba0f758b994bc",
+          "path": "Vue_project/2Vue多版本及cli切换/1.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e635ab254fb906877a9746d8001978a1ed86b06d",
+          "path": "Vue_project/2Vue多版本及cli切换/2.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "31c0d6cbfaa13263c5091e827a0aafe4eb0a4caf",
+          "path": "Vue_project/2Vue多版本及cli切换/3.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "40b028163735bfd5daa04c647c38c23feda4a681",
+          "path": "Vue_project/2Vue多版本及cli切换/4.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "673f97b38f56e217ae232b66d095b1d935c1b74e",
+          "path": "Vue_project/2Vue多版本及cli切换/VueCLI.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "00adb8de5ecc19a024a4112acca87aa0b5987dc2",
+          "path": "Vue_project/3项目实战.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1d533e685c974188792049e39d0d25def2de561c",
+          "path": "Vue_project/4vue+ts项目重构文档/1.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ab3a6e425cb708269b458abb2c1e46a88987c6b3",
+          "path": "Vue_project/4vue+ts项目重构文档/2.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "959e29dd1e07ba531a5e2e68fa4e8293ddf2f0f9",
+          "path": "Vue_project/4vue+ts项目重构文档/3.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d8b5990ddc85273ff9a7f2cdda24beee1dbcc7c7",
+          "path": "Vue_project/4vue+ts项目重构文档/4.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "919d9050f4467d9d6b585dab3abac94638865fcf",
+          "path": "Vue_project/4vue+ts项目重构文档/5.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "78123deef64b56df354d213ddf167d0888439d73",
+          "path": "Vue_project/4vue+ts项目重构文档/vue2+ts项目重构.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "56ce96700a4a10ff3c4b212d82c433396664bc93",
+          "path": "Vue_project/5vue3项目实战.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "989ba19f3a4d482e85bc0cc4c93890b00c9102b5",
+          "path": "Vue_project/佳楠通用项目接口文档/通用项目接口文档.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "403adbc1e527906a4aa59558cd582c20bcd1d738",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/.gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e9558405fdcc02f12d757acb308e02937a7444f1",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/babel.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "48cde0cf016f3e59a2e1e1e39b224212495a1fbd",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/package.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fb4e094f8b1fdc962ad5c2043d16bb330aeaeebe",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/plugins/element.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "df36fcfb72584e00488330b560ebcf34a41c64c2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/public/favicon.ico"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3e5a13962197105f2078d2a224cc57dfa09b4893",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/public/index.html"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0cf077b0b2fdc52797a1e2ee1785fb3978b69f22",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/App.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "43f8614a727e26d0aa7a645cc9ee03cd89efc7fe",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/api/api.ts"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bda97f5f07cb5522744d221da7e6792304c371fb",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/astronauta.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c8d6c66136558f3515a87ee6c551e7b996091ff2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/bg.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "af944401f75ea20515a02ddb3fb43d23ecb8c662",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/css/reset.css"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "50e69b9180d69a4b692cd90283a5d75017bf7593",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/data.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f3d2503fc2a44b5053b0837ebea6e87a2d339a43",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/logo.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e432e1ec8312e0014cd45bb515b736f15bd993e0",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/stars404.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8af977341271db4add89f46977f4115163a63453",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/Home.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a9a4aa8232d7e597f5af09effdad94f93182fb14",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/Login.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "56e40401b4ea41aabaa58573f4c9a3f846007da2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/LoginOne.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "559e484dff67d990bcf255eee4b9059961a96d2f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/LoginTwo.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6d280f03395f0be1d6421f9d4a22b8ec1102c106",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/NotFound.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6f3bee3e914100bcb2716c20b0011543cad1d7df",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/common/Breadcrumb.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "070d6cf70568f9ae1d8075941f19252b41840e86",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/common/Footer.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2dad1f41ab8181d2d5243f78561bd586487d9214",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/common/Header.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e154d58e35fa497e607aa1c38ad38093a8084e3a",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/common/Menu.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1b2f3b34bc93d8bcad86e28893f1d3880d6a1a62",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/common/MenuOne.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "86ba6586e58979670505426d2d8a41d47c2cc794",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/common/Pageing.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d776b967c4400615a536fc76e55e397d1af23c0c",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/dataAnalysis/DataView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "91271edca2ed2f0b75a259b556f4b9495e5325ce",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/dataAnalysis/MapView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "db0160235d22bac951a62db9f00fdaf0cbf51ce2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/dataAnalysis/ScoreMap.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3d980801706b0c0c088a2e0c22381e8df1d52ff3",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/dataAnalysis/TravelMap.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e4c19974f42281aa5f6e28a9ee95f68801702f62",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/students/InfoList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bbf56631fa2fbe4cfd9ac055300cb049630c1e6e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/students/InfoLists.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5232c58826b585dae07a951ddbf4293a4e0ad97d",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/students/StudentList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "203b9a26d844c94fe6092438134a56d80dbcd062",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/students/WorkList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5a82d743ee541e95344447fbcf5099a23c99942f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/students/WorkMent.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d899153a00e7d738602acd5919da54a01abfe33e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/components/users/User.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "951face8d922d78f74476984975a0daea96f18dc",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/main.ts"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c415aa5bc612419032cd875910b7cd7d02807d87",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/router/index.ts"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f8bcd6eda0884f248e09b70e42e0a2f4af1551de",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/service.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c656c68b87727e55afdd5b58398ba054b36d51e9",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/shims-tsx.d.ts"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2c5f8507271b36cc3c566d159ee8b961ec7ddbea",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/shims-vue.d.ts"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7135ddcb197e4aacc90a89b56a5615288db1a600",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/types.d.ts"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9d06a7d18c961d782e315b89d1e21d373cd4855e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/utils/setToken.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "708968436fdcde5be591cd89720edcb88a9c6724",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/utils/table.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bbc6acba929f06b3d950dd3ab01c25ab5ae99b41",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/src/utils/vaildate.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "15cedfa585d14de69e3c2828c077abbc6f7eee20",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/tsconfig.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "326ccad1948d5c832f203ae07d155cbc4176c439",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/vue.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d432c3034c6108d8bf16e77804f69f938a4a38f4",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/yarn.lock"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "403adbc1e527906a4aa59558cd582c20bcd1d738",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/.gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "caf14ee1e6d244b91e1cebbda6cf0eae06ca2bd3",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "682afd8ba3f5e21d65466e208426a43722a64bc1",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/babel.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8735d0c5b330098d974f7675c0aa8c1b67ac5374",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/package.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fb4e094f8b1fdc962ad5c2043d16bb330aeaeebe",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/plugins/element.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "df36fcfb72584e00488330b560ebcf34a41c64c2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/public/favicon.ico"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3e5a13962197105f2078d2a224cc57dfa09b4893",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/public/index.html"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0cf077b0b2fdc52797a1e2ee1785fb3978b69f22",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/App.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "57527dfd5d7c0fcf290d3fb62e9fbe9c81fc4f64",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/api/api.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bda97f5f07cb5522744d221da7e6792304c371fb",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/astronauta.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c8d6c66136558f3515a87ee6c551e7b996091ff2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/bg.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "af944401f75ea20515a02ddb3fb43d23ecb8c662",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/css/reset.css"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "50e69b9180d69a4b692cd90283a5d75017bf7593",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/data.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f3d2503fc2a44b5053b0837ebea6e87a2d339a43",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/logo.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e432e1ec8312e0014cd45bb515b736f15bd993e0",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/stars404.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8af977341271db4add89f46977f4115163a63453",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/Home.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b2b246ef30511786491261b9dd8dca9e4251ea93",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/Login.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "56e40401b4ea41aabaa58573f4c9a3f846007da2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/LoginOne.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "559e484dff67d990bcf255eee4b9059961a96d2f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/LoginTwo.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6d280f03395f0be1d6421f9d4a22b8ec1102c106",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/NotFound.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6f3bee3e914100bcb2716c20b0011543cad1d7df",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/common/Breadcrumb.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "070d6cf70568f9ae1d8075941f19252b41840e86",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/common/Footer.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2dad1f41ab8181d2d5243f78561bd586487d9214",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/common/Header.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e154d58e35fa497e607aa1c38ad38093a8084e3a",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/common/Menu.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1b2f3b34bc93d8bcad86e28893f1d3880d6a1a62",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/common/MenuOne.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "86ba6586e58979670505426d2d8a41d47c2cc794",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/common/Pageing.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c6f92332ff89ed56b0187807462466928e556695",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/dataAnalysis/DataView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "91271edca2ed2f0b75a259b556f4b9495e5325ce",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/dataAnalysis/MapView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "db0160235d22bac951a62db9f00fdaf0cbf51ce2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/dataAnalysis/ScoreMap.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c7b86e02aef6841557cfc8d9c87c27bc79c41a68",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/dataAnalysis/TravelMap.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3964b422b84721310aba0e0dcdcc99a77a752d66",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/students/InfoList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bbf56631fa2fbe4cfd9ac055300cb049630c1e6e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/students/InfoLists.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "34bfd1cd2d33eaf9f6794bcaa273a04a2b321e2a",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/students/StudentList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "203b9a26d844c94fe6092438134a56d80dbcd062",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/students/WorkList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5a82d743ee541e95344447fbcf5099a23c99942f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/students/WorkMent.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d899153a00e7d738602acd5919da54a01abfe33e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/components/users/User.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "17bb32f3d98c1eaf732ee45eb4237b8c111dc4d3",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/main.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6cd58c9043faee72dda63ae6f41b318dda9900e1",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/router/index.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f8bcd6eda0884f248e09b70e42e0a2f4af1551de",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/service.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9d06a7d18c961d782e315b89d1e21d373cd4855e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/utils/setToken.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "708968436fdcde5be591cd89720edcb88a9c6724",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/utils/table.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bbc6acba929f06b3d950dd3ab01c25ab5ae99b41",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/src/utils/vaildate.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8926f87e7629e38692544780fb9d0714d52f7f06",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/vue.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7d58478a98dd4db315d8e05face2f60f9a02543f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/yarn.lock"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "403adbc1e527906a4aa59558cd582c20bcd1d738",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/.gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a28d47ec0f9aabd2395e2dfc6e310a3e8eeb763f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e9558405fdcc02f12d757acb308e02937a7444f1",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/babel.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "19b454d2bceabc0d5ca1ce0937d21172e61b6c79",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/package.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "df36fcfb72584e00488330b560ebcf34a41c64c2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/public/favicon.ico"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3e5a13962197105f2078d2a224cc57dfa09b4893",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/public/index.html"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a7c222661dc9f609b338ac84e7bf5749f2f3b736",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/App.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "57527dfd5d7c0fcf290d3fb62e9fbe9c81fc4f64",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/api/api.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bda97f5f07cb5522744d221da7e6792304c371fb",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/astronauta.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c8d6c66136558f3515a87ee6c551e7b996091ff2",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/bg.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "af944401f75ea20515a02ddb3fb43d23ecb8c662",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/css/reset.css"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "50e69b9180d69a4b692cd90283a5d75017bf7593",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/data.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f3d2503fc2a44b5053b0837ebea6e87a2d339a43",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/logo.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e432e1ec8312e0014cd45bb515b736f15bd993e0",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/stars404.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7f8fd5635cf0827012ce804e8dbe11f25c59deef",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/Home.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cf42f47412c2aac3a9b901390bcdfe1d3a4e7141",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/Login.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6d280f03395f0be1d6421f9d4a22b8ec1102c106",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/NotFound.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6f3bee3e914100bcb2716c20b0011543cad1d7df",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/common/Breadcrumb.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "070d6cf70568f9ae1d8075941f19252b41840e86",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/common/Footer.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1798b10b27fb3e8acd5499233adf5119117f4c9c",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/common/Header.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "efa4ecf0d7eda1fdc142051055ec6913bdfe6e4e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/common/Menu.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e4d77ec77814f797846fe728296c3376666362c0",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/common/MenuOne.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "86ba6586e58979670505426d2d8a41d47c2cc794",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/common/Pageing.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8a0d30a1305c9a3b2cfe985ab1516df726e1a06b",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/dataAnalysis/DataView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "56a77a3872ff9e1182052792e3c3f07903976dac",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/dataAnalysis/MapView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9c86f0130448fbb07f8b41c5a659175f867f9712",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/dataAnalysis/ScoreMap.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "364ea00521472c67a135111cfde131a153ca98d1",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/dataAnalysis/TravelMap.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "896caa5d5130fe2999dd97bbac3ba53acc41e82f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/students/InfoList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "62d89f3fa720cb90abcbb4e201647f16e0be919d",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/students/InfoLists.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "984dfa47b31fd87902a94d5891978016cac8b227",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/students/StudentList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "541466793d44441ae3fe004e0ec82326bd618a49",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/students/WorkList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8e667efb57d6eef159116d70736b83ce39f4337a",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/students/WorkMent.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d899153a00e7d738602acd5919da54a01abfe33e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/components/users/User.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a31235d16c7201ee532303d53971fa69884cb40a",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/main.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c34b64dffeedcbcb02567d46d1d514f2aadeeb9f",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/router/index.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1cf94778678b6a223b86d9692072fde201c3d62b",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/service.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "757ff728411d9a9fad20c0659f13ab94dc06b6fe",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/utils/map.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9d06a7d18c961d782e315b89d1e21d373cd4855e",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/utils/setToken.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "708968436fdcde5be591cd89720edcb88a9c6724",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/utils/table.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bbc6acba929f06b3d950dd3ab01c25ab5ae99b41",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/src/utils/vaildate.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8926f87e7629e38692544780fb9d0714d52f7f06",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/vue.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "28591891d06c0fa2724404129792e742d319d441",
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/yarn.lock"
+        }
+      ],
+      "licenses": [],
+      "package_manifests": [
+        {
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-ts/package.json",
+          "vue": "^2.6.11",
+          "scripts": {
+            "serve": "vue-cli-service serve",
+            "build": "vue-cli-service build",
+            "lint": "vue-cli-service lint"
+          },
+          "lockfiles": [
+            "Vue_project/项目vue2+ts+vue3源码/project-ts/yarn.lock"
+          ]
+        },
+        {
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v2/package.json",
+          "vue": "^2.6.11",
+          "scripts": {
+            "serve": "vue-cli-service serve",
+            "build": "vue-cli-service build",
+            "lint": "vue-cli-service lint"
+          },
+          "lockfiles": [
+            "Vue_project/项目vue2+ts+vue3源码/project-v2/yarn.lock"
+          ]
+        },
+        {
+          "path": "Vue_project/项目vue2+ts+vue3源码/project-v3/package.json",
+          "vue": "^3.0.0",
+          "scripts": {
+            "serve": "vue-cli-service serve",
+            "build": "vue-cli-service build",
+            "lint": "vue-cli-service lint"
+          },
+          "lockfiles": [
+            "Vue_project/项目vue2+ts+vue3源码/project-v3/yarn.lock"
+          ]
+        }
+      ],
+      "data_files": [
+        "Vue_project/1项目效果展示/01Vue通用后台管理.xmind",
+        "Vue_project/1项目效果展示/01登录页.png",
+        "Vue_project/1项目效果展示/02学生列表页.png",
+        "Vue_project/1项目效果展示/03信息列表.png",
+        "Vue_project/1项目效果展示/04信息管理页.png",
+        "Vue_project/1项目效果展示/05作业列表页.png",
+        "Vue_project/1项目效果展示/06作业管理页.png",
+        "Vue_project/1项目效果展示/07数据概览页.png",
+        "Vue_project/1项目效果展示/08地图概览页.png",
+        "Vue_project/1项目效果展示/09旅游地图页.png",
+        "Vue_project/1项目效果展示/10分数地图页.png",
+        "Vue_project/1项目效果展示/11权限管理页.png",
+        "Vue_project/1项目效果展示/12404页.png",
+        "Vue_project/2Vue多版本及cli切换/1.jpg",
+        "Vue_project/2Vue多版本及cli切换/2.jpg",
+        "Vue_project/2Vue多版本及cli切换/3.jpg",
+        "Vue_project/2Vue多版本及cli切换/4.jpg",
+        "Vue_project/4vue+ts项目重构文档/1.png",
+        "Vue_project/4vue+ts项目重构文档/2.png",
+        "Vue_project/4vue+ts项目重构文档/3.png",
+        "Vue_project/4vue+ts项目重构文档/4.png",
+        "Vue_project/4vue+ts项目重构文档/5.png",
+        "Vue_project/佳楠通用项目接口文档/通用项目接口文档.txt",
+        "Vue_project/项目vue2+ts+vue3源码/project-ts/package.json",
+        "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/astronauta.jpg",
+        "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/bg.jpg",
+        "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/data.json",
+        "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/logo.png",
+        "Vue_project/项目vue2+ts+vue3源码/project-ts/src/assets/stars404.png",
+        "Vue_project/项目vue2+ts+vue3源码/project-ts/tsconfig.json",
+        "Vue_project/项目vue2+ts+vue3源码/project-v2/package.json",
+        "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/astronauta.jpg",
+        "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/bg.jpg",
+        "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/data.json",
+        "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/logo.png",
+        "Vue_project/项目vue2+ts+vue3源码/project-v2/src/assets/stars404.png",
+        "Vue_project/项目vue2+ts+vue3源码/project-v3/package.json",
+        "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/astronauta.jpg",
+        "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/bg.jpg",
+        "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/data.json",
+        "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/logo.png",
+        "Vue_project/项目vue2+ts+vue3源码/project-v3/src/assets/stars404.png"
+      ],
+      "upstream": null,
+      "has_pages": false,
+      "validation": {
+        "tree_identical": true,
+        "all_commit_objects_present": true,
+        "source_head_is_main_ancestor": true,
+        "source_fsck_passed": true
+      }
+    },
+    {
+      "repository": "liujunyukarry/vue3-backendmanagementsystem",
+      "prefix": "vue3/vue3-backendmanagementsystem",
+      "default_branch": "main",
+      "head_sha": "945d6466891eeeb5d240abbb6c9bb5f852d1eb31",
+      "tree_sha": "639e88a327fbe56235c71f43029294491302accb",
+      "file_count": 30,
+      "commit_count": 3,
+      "commit_shas": [
+        "945d6466891eeeb5d240abbb6c9bb5f852d1eb31",
+        "5f99fd43e9dc8fed65be765b6d8d93e4ea1e604a",
+        "5e61642f352e6d8a250d681854105332da4f3178"
+      ],
+      "refs": [
+        "refs/heads/main 945d6466891eeeb5d240abbb6c9bb5f852d1eb31"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fe2ca9385d21e6ad1556d04c6fc39d0631012b94",
+          "path": "README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dc3bc09a247732bf162a0078796c68ebdc074c30",
+          "path": "code/.browserslistrc"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7fdf1ba9d25dba12d359ac09c2dd72c0ce452112",
+          "path": "code/.eslintrc.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "403adbc1e527906a4aa59558cd582c20bcd1d738",
+          "path": "code/.gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f8ade7595cf384883d6c1ed757a0f657b2286f0f",
+          "path": "code/README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e9558405fdcc02f12d757acb308e02937a7444f1",
+          "path": "code/babel.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4aafc5f6ed86fe6dff8d4b6be59290cbdeb61656",
+          "path": "code/jsconfig.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "82047b4eb1e18bfe16e326db22758eeb396e88f3",
+          "path": "code/package.json"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "df36fcfb72584e00488330b560ebcf34a41c64c2",
+          "path": "code/public/favicon.ico"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3e5a13962197105f2078d2a224cc57dfa09b4893",
+          "path": "code/public/index.html"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e6d80ec627fa3d9f2f7ba39da052058bd497b4f6",
+          "path": "code/src/App.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f3d2503fc2a44b5053b0837ebea6e87a2d339a43",
+          "path": "code/src/assets/logo.png"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1c544cb1ed15b1cc4cd15e4637020fed7ab862c4",
+          "path": "code/src/components/HelloWorld.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "46f0f74f77461d9cb3300d43f2d4a6fb219b6f0c",
+          "path": "code/src/main.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "602490a3ad7aeab6a2b84b98a4071371cc8bf579",
+          "path": "code/src/router/index.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c703b0b645aa4763d7d9107e99f47af167596e70",
+          "path": "code/src/store/index.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "70456a5a1f0d934a628e0027774f139d6e8ad9f7",
+          "path": "code/src/store/state/num.state.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49b92d9a09d54372fcee8320170339c76343128e",
+          "path": "code/src/store/state/userinfo.state.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2d658953650c1e45a9e6d74c10a4b39e6fce34b1",
+          "path": "code/src/util/request.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1a782b32e5206db1dff7922f7d54f2b412f2c4d9",
+          "path": "code/src/util/service.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d132b06adae81d8cd38fa23ba95991a7a9168f36",
+          "path": "code/src/views/LayOut/LayOut.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "df734823bbef03b0c32fbd7c128e35d729078448",
+          "path": "code/src/views/pages/goodsList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2ab5111108c77f6c310f8a407c0bddb1b3ec6235",
+          "path": "code/src/views/pages/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0393ffee707afe8e1e5b1adac4d6ac15ae64bd84",
+          "path": "code/src/views/pages/login.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0135f9ca92036d94b02b761f7c3fef5416891aef",
+          "path": "code/src/views/pages/rolesList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1c4e0a0e7c4d7a1c260f4e405a0beea0fd393782",
+          "path": "code/src/views/pages/usersList.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f315232ac6d7bfd508d8c62701e7fa98cfddb49d",
+          "path": "code/src/基础语法/AboutView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1add2b4e29e766669c7f60e89b7581c705193a57",
+          "path": "code/src/基础语法/HomeView.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1b902a3bf4081a21a201a7f02b718928774f9d17",
+          "path": "code/vue.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1c8934bd829660a1c05e3d1c0c7a6efee70284bc",
+          "path": "code/yarn.lock"
+        }
+      ],
+      "licenses": [],
+      "package_manifests": [
+        {
+          "path": "code/package.json",
+          "vue": "^3.2.13",
+          "scripts": {
+            "serve": "vue-cli-service serve",
+            "build": "vue-cli-service build",
+            "lint": "vue-cli-service lint"
+          },
+          "lockfiles": [
+            "code/yarn.lock"
+          ]
+        }
+      ],
+      "data_files": [
+        "code/jsconfig.json",
+        "code/package.json",
+        "code/src/assets/logo.png"
+      ],
+      "upstream": null,
+      "has_pages": false,
+      "validation": {
+        "tree_identical": true,
+        "all_commit_objects_present": true,
+        "source_head_is_main_ancestor": true,
+        "source_fsck_passed": true
+      }
+    },
+    {
+      "repository": "liujunyukarry/vue3-2_backendmanagementsystem",
+      "prefix": "vue3.2-resources/vue3-2_backendmanagementsystem",
+      "default_branch": "master",
+      "head_sha": "19e335e150b9f7dd1fe68c2bb33ef452ab3df9ef",
+      "tree_sha": "2834bee333e7427426a72ab6dbca00faa0ca1c9c",
+      "file_count": 43,
+      "commit_count": 3,
+      "commit_shas": [
+        "19e335e150b9f7dd1fe68c2bb33ef452ab3df9ef",
+        "8ddad1276e2ca225e546c6abe7db166183ea7f8a",
+        "1754e85b63b8cacd4298eda4770e206861cf841f"
+      ],
+      "refs": [
+        "refs/heads/master 19e335e150b9f7dd1fe68c2bb33ef452ab3df9ef"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c835b3adc8123adf4a622082e39ade93008bb6c2",
+          "path": ".gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4317d7b9fc805192e6750db413c0c8a607b83f69",
+          "path": "README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1e093c94cddf37588cd209e6dff7780746452af9",
+          "path": "resource/husky规范/.cz-config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49955e2ea0e7d1e3f8e04861601e3d1f4586ac18",
+          "path": "resource/husky规范/.prettierrc"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a3e6680ebd0a7b5c5b4a4ba9b3ab7e71ba366efc",
+          "path": "resource/husky规范/commitlint.config.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "485c128b6133188ae755c275a1c667634e4129b6",
+          "path": "resource/icons/svg/exit-fullscreen.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "88dcc98e6c80d145e3807f00a6e5ed91ce5371e4",
+          "path": "resource/icons/svg/eye-open.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "16ed2d872d1cadeb36fc9101cbf77397fbf4fd70",
+          "path": "resource/icons/svg/eye.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0e86b6fa803dbe964cae74f4432622d435b007bf",
+          "path": "resource/icons/svg/fullscreen.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b2710017933e9088e002873cde651bac54cea449",
+          "path": "resource/icons/svg/guide.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4a70141921067b18d616b6b7c79eecf50ae575b9",
+          "path": "resource/icons/svg/hamburger-closed.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f76a0550796bcbc689193e4cd47d44900e12d5cb",
+          "path": "resource/icons/svg/hamburger-opened.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0082b577ab28523f353fa71c00cb338446b2bb9c",
+          "path": "resource/icons/svg/language.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e291d85df22083536bb2e40fd18120ef6d6b141d",
+          "path": "resource/icons/svg/password.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0ba0716a62a92f7cb2f2e6f3c745ace2be6b3b31",
+          "path": "resource/icons/svg/user.svg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "45a1294d81af10f153f69b80a8cbc931036d268a",
+          "path": "resource/styles/element.scss"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "path": "resource/styles/element/index.scss"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fdc60010a7ff1554d8b0c7f9ed0502f4bf3173d6",
+          "path": "resource/styles/index.scss"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3ca716846700bb807b856998d74522645319d2bf",
+          "path": "resource/styles/mixin.scss"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0776ce2afdb1912e1ef79280a9b758ed94f5f009",
+          "path": "resource/styles/sidebar.scss"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b8c8d86f4b42cf98e7655b25e816a87f0f0df994",
+          "path": "resource/styles/transition.scss"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0b65992a4935b309c39cab1af4b6c39652d44c70",
+          "path": "resource/styles/variables.scss"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "540a42a0a84e4e3120652b5764067e334a6b06dd",
+          "path": "resource/国际化配置/en.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8d3606b44ec5090e790b112508c1f8074a66cef8",
+          "path": "resource/国际化配置/zh.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8beee34b9e58e66a58aff47c260bbfba5e67df70",
+          "path": "resource/接口文档/电商管理后台 API 接口文档.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e0e75a4b29e67324a57ccd376d9cebc066ab7220",
+          "path": "resource/模板/vue_3.2.zip"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a200b664bab8907d8ef721e2707f5bb5481454cd",
+          "path": "resource/笔记/0.安装v3.2版.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "474e7115774038765db69dc26ac94a2c1a03c985",
+          "path": "resource/笔记/1.git提交规范.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b5017dac75c51b434e03e97fbdc3b0a921607bb0",
+          "path": "resource/笔记/2.代码格式提交规范.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e610ea003c718f1cccc8e465bf194c70e616a87f",
+          "path": "resource/笔记/3.按需导入elementplus.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6898c3de63d055fa1ea8f8f7aeee178563f33ae3",
+          "path": "resource/笔记/4.全局使用scss变量.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d445799c8fcb93e867b5200a62ecd1be15459def",
+          "path": "resource/笔记/5.svg使用.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5bd32ba82be1e39e33c7d2faf210decbd23c1a59",
+          "path": "resource/路由配置/index.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "569a3e9174b5f06422ef8a3a10eeeed3651f8715",
+          "path": "resource/路由页面/categories/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1cbfb88236c927b6a4e38dfb8958ed8730a416d1",
+          "path": "resource/路由页面/goods/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e2c6b916f69b1f256fa1ab4b1b853682f4f0c7ab",
+          "path": "resource/路由页面/login/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cfd6585908608bfbf762e2418058153592c7c9f5",
+          "path": "resource/路由页面/login/loginRule.js"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "92be8e60e730d33e6bb8377720a1700fd4272f84",
+          "path": "resource/路由页面/orders/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7a35479eedb5e70b46d7ca55cb33b2b3b0f8e585",
+          "path": "resource/路由页面/params/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9960e8daaa7af68003de0e3b9492a7e2d0cba7a5",
+          "path": "resource/路由页面/reports/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4a24cc7d4678e95720a27ead91ede1128afbd7a3",
+          "path": "resource/路由页面/rights/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ebc14824268d3fa2462159efc56a604a36d1e78a",
+          "path": "resource/路由页面/roles/index.vue"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b1e1da70485ccdd7188c7d09eb43afe02a75d5f9",
+          "path": "resource/路由页面/users/index.vue"
+        }
+      ],
+      "licenses": [],
+      "package_manifests": [],
+      "data_files": [
+        "resource/模板/vue_3.2.zip",
+        "resource/笔记/0.安装v3.2版.txt",
+        "resource/笔记/1.git提交规范.txt",
+        "resource/笔记/2.代码格式提交规范.txt",
+        "resource/笔记/3.按需导入elementplus.txt",
+        "resource/笔记/4.全局使用scss变量.txt",
+        "resource/笔记/5.svg使用.txt"
+      ],
+      "upstream": null,
+      "has_pages": false,
+      "validation": {
+        "tree_identical": true,
+        "all_commit_objects_present": true,
+        "source_head_is_main_ancestor": true,
+        "source_fsck_passed": true
+      }
+    }
+  ]
+}
