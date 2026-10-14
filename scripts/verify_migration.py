@@ -10,7 +10,13 @@ for source in manifest['sources']:
     assert git('rev-parse','HEAD:'+prefix)==source['tree_sha'],prefix+' tree differs'
     assert int(git('ls-tree','-r','--name-only','HEAD:'+prefix).count('\n'))+1==source['file_count']
     git('merge-base','--is-ancestor',sha,'HEAD')
-    assert git('rev-parse','refs/heads/source/'+source['repository'].split('/')[1]+'/'+source['default_branch'])==sha
+    branch='source/'+source['repository'].split('/')[1]+'/'+source['default_branch']
+    candidates=['refs/heads/'+branch,'refs/remotes/origin/'+branch]
+    preserved=[]
+    for ref in candidates:
+        p=subprocess.run(['git','-C',str(ROOT),'rev-parse','--verify',ref],capture_output=True,text=True)
+        if p.returncode==0:preserved.append(p.stdout.strip())
+    assert preserved and all(value==sha for value in preserved),branch+' reference differs'
     for commit in source['commit_shas']: git('cat-file','-e',commit+'^{commit}')
     for package in source['package_manifests']:
         json.loads((ROOT/prefix/package['path']).read_text())

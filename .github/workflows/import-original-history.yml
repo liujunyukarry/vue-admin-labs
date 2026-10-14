@@ -1,25 +1,20 @@
-name: Import and verify original histories
+name: Verify preserved files and histories
 on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - .github/workflows/import-original-history.yml
 permissions:
-  contents: write
-concurrency:
-  group: repository-history-import
-  cancel-in-progress: false
+  contents: read
 jobs:
-  import:
-    if: github.repository == 'liujunyukarry/vue-admin-labs'
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
-      - name: Checkout complete target history
-        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6, SHA verified from official Git ref
+      - name: Checkout complete target history and source refs
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # verified official v6 commit
         with:
           fetch-depth: 0
-          ref: main
-      - name: Import without rewriting original commits and verify before atomic push
-        run: python3 scripts/bootstrap_import.py
+      - name: Verify original trees, commits, branches and documentation links
+        run: python3 scripts/verify_migration.py
+      - name: Verify Git object integrity
+        run: git fsck --full
